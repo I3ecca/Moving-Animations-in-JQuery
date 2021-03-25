@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
 .lightbox {
     position: absolute;
     top: 0;
@@ -102,7 +106,7 @@
   
   body {
     font-size: 16px;
-    font-family: "Trebuchet MS", Verdana, Arial, sans-serif; }
+    font-family: 'Roboto', sans-serif; }
   
   .clear {
     clear: both; }
@@ -148,5 +152,13 @@
   
   .fancy-link:hover:after {
     transform: scaleX(1); }
+
+
+  p {
+    font-size: 15px;
+    color: rgb(12, 30, 131);
+    font-weight: bold;
+    
+  }
   
   /*# sourceMappingURL=style.css.map */
