@@ -47,10 +47,12 @@ $(function () {
    
    $(".red-box").fadeTo(1000, 0.2);
    $(".green-box").delay(1000).fadeTo(1000, 0.5).fadeOut(2000).fadeIn(3000);
-   $(".blue-box").fadeTo(1000, 0.8);
+   $(".blue-box").delay(2000).fadeTo(2000, 0.8).fadeOut(1000).delay(500).fadeIn(2000);
    
 });
 
 //One way to achive the effect that you want is to delay our animations!
 
 //Chaining: Means is you called a function on your element and then right after this you call another. In this case, line 49 with the green box is a chianed function. 
+
+//Chaining is helpful because it makes your code readable and more concise as long as you do not overdo the chaining. 
